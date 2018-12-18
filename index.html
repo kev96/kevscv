@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<title>IMD CA2</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+   
+    <h4><b>CV</b></h4>
+   
+  </div>
+  <div class="w3-bar-block">
+    <input type="text" placeholder="Search.." class="w3-bar-item w3-button w3-padding">
+    <a href="#frontcover" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>Front Cover</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a>
+    <a href="#education" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>Education</a>
+	<a href="#grades" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>Grades</a>
+	<a href="#workexperience" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>Work Experience</a>
+	<a href="#skills" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>Skills</a> 
+	<a href="#awards" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>Awards</a> 
+	<a href="#hobbies" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>Hobbies</a> 	
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+ 
+</nav>
+
+<!-- Overlay effect when using the website on the a mobile device -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE Deatails! -->
+
+<header id="frontcover">
+<div class="w3-main" style="margin-left:300px">
+    <div class="w3-container w3-center">
+    <h1><b>Kevin O'Keeffe's CV</b></h1>
+	<img src="kevin.JPG" class="w3-round" alt="myself">
+	</div>
+
+  <!-- About -->
+  <header id="about">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>About Me</b></h4>
+    <p>I am currently studying in IT Tallaght which, after Christmas will be a technological university. currently I am in my final Year of a Bachelor Of Science in IT Management.</p>
+	 
+    <hr>
+	</div>
+	
+	<!-- Education -->
+  <header id="education">
+   
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>Education</b></h4>
+     <hr>
+  <div class="w3-card-4 w3-teal" style="width:70%">
+    <header class="w3-container w3-green">
+      <h3>IT Tallaght</h3>
+    </header>
+    <div class="w3-container">
+      <p>2016-2019</p>
+      <hr>
+      <img src="ITT.JPEG" alt="ITT" class="w3-left w3-square w3-margin-right" style="width:200px">
+      <p>Recent Gradute of Bachelor of science ordinary degree in IT Management and decided on continuing to finish with my honours degree in IT Management.</p>
+      <p> I find that the structure of the Honours course is similar to that of previous years with emphasis on cloud computing, architecture and IOT.</p>
+	  <p> Another major part of the course is my final Year Project which is comparing different MSP(Managed Services Provider) Softwares in Terms of RMM( Remote Monitoring & Management ) and PSA( Professional Services Automation )</p>
+	</div>
+	</div>
+	
+	<div class="w3-card-4 w3-teal" style="width:70%">
+    <header class="w3-container w3-green">
+      <h3>Ballinteer Community School</h3>
+    </header>
+    <div class="w3-container">
+      <p>2010-2015</p>
+      <hr>
+      <img src="BCS.PNG" alt="BCS" class="w3-left w3-square w3-margin-right" style="width:200px">
+      <p>Attended BCS for over six years where i enaged in lots of different an unique subjects such as history, WoodWork Home Economics, metal work geography.</p>
+      <p> As part of Transition Year we did optional one off subjects such as Chinese language and culture, Law and judicial studies as well as Medical Geography.</p>
+	</div>
+	</div>
+    
+	<!-- Grades -->
+  <header id="grades">
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>College Grades</b></h4>
+    <!-- College Grades -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-right w3-opacity w3-hover-opacity-off">
+          <li class="w3-blue w3-xlarge w3-padding-32">Year4</li>
+          <li class="w3-padding-16"> <b>GPA TBC</b></li>
+          <li class="w3-padding-16">Private Cloud Architecture</li>
+          <li class="w3-padding-16">IOT and Security</li>
+          <li class="w3-padding-16">Enterprise Performace Architecture</li>
+		  <li class="w3-padding-16">Information management</li>
+		  <li class="w3-padding-16">Interactive Media Design</li>
+		  <li class="w3-padding-16">Social Media Analysis</li>
+		  <li class="w3-padding-16">Final Year Project</li>
+          <li class="w3-padding-16">
+            
+            <span class="w3-opacity">Semester7</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="accordion w3-green">Semester 8</button>
+<div class="panel">
+  <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-blue w3-xlarge w3-padding-32">Year4</li>
+          <li class="w3-padding-16"><b>GPA TBC</b</li>
+          <li class="w3-padding-16">Operations Research</li>
+          <li class="w3-padding-16">IT Governance and Quality</li>
+          <li class="w3-padding-16">Advanced Cloud Provisioning & Networking</li>
+		  <li class="w3-padding-16"> Final Year Project</li>
+          <li class="w3-padding-16">
+            
+            <span class="w3-opacity">Semester 8</span>
+          </li>
+</div>
+          </li>
+        </ul>
+      </div>
+	     <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-right w3-opacity w3-hover-opacity-off">
+          <li class="w3-blue w3-xlarge w3-padding-32">Year3</li>
+          <li class="w3-padding-16"><b> GPA 2.50</b></li>
+          <li class="w3-padding-16">Cloud services and distributed computing B</li>
+          <li class="w3-padding-16">Innovation & Entrepreneurshp C+</li>
+          <li class="w3-padding-16">Operating Systems C</li>
+		  <li class="w3-padding-16">Web Application Development C</li>
+		  <li class="w3-padding-16">Advanced Databases C</li>
+		  <li class="w3-padding-16">Networking 3 B-</li>
+          <li class="w3-padding-16">
+            
+            <span class="w3-opacity">Semester 5</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="accordion w3-green">Semeste 6</button>
+<div class="panel">
+  <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-blue w3-xlarge w3-padding-32">Year3</li>
+          <li class="w3-padding-16"><b> GPA 2.50</b></li>
+          <li class="w3-padding-16">Industry Project B</li>
+          <li class="w3-padding-16">Experiential Learning PS</li>
+          <li class="w3-padding-16">
+            
+            <span class="w3-opacity">Semester 6</span>
+          </li>
+</div>
+          </li>
+        </ul>
+      </div>
+      
+      
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-right w3-opacity w3-hover-opacity-off">
+          <li class="w3-blue w3-xlarge w3-padding-32">Year2</li>
+          <li class="w3-padding-16"><b> GPA 2.50</b></li>
+          <li class="w3-padding-16">Computer Services Mngt B-</li>
+          <li class="w3-padding-16">Web Design and Development B-</li>
+          <li class="w3-padding-16">Discrete Mathematics 2 B</li>
+		  <li class="w3-padding-16">Database Design & Programming D</li>
+		  <li class="w3-padding-16">Networking 1 B</li>
+		  <li class="w3-padding-16">Software Quality Assurance & Testing B-</li>
+          <li class="w3-padding-16">
+            
+            <span class="w3-opacity">Semester 3</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="accordion w3-green">Semester 4</button>
+<div class="panel">
+  <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-blue w3-xlarge w3-padding-32">Year2</li>
+          <li class="w3-padding-16"><b> GPA 2.50</b></li>
+          <li class="w3-padding-16">IT Scripting & Automation D</li>
+          <li class="w3-padding-16">Database Administration C</li>
+          <li class="w3-padding-16">Management Science B</li>
+		  <li class="w3-padding-16">Networking 2 B-</li>
+		  <li class="w3-padding-16">Financial Management C</li>
+		  <li class="w3-padding-16">Information Security B</li>
+          <li class="w3-padding-16">
+            
+            <span class="w3-opacity">Semester 4</span>
+          </li>
+</div>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third">
+        <ul class="w3-ul w3-border w3-white w3-right w3-opacity w3-hover-opacity-off">
+          <li class="w3-blue w3-xlarge w3-padding-32">Year1</li>
+          <li class="w3-padding-16"><b> GPA 2.65</b></li>
+          <li class="w3-padding-16">Learning to Learn B+</li>
+          <li class="w3-padding-16">Discrete Mathematics 1 C</li>
+          <li class="w3-padding-16">Business & Information Systems B</li>
+		  <li class="w3-padding-16">undament of Interface & Web B</li>
+		  <li class="w3-padding-16">Computer Architecture C</li>
+		  <li class="w3-padding-16">Software Development 1 B</li>
+          <li class="w3-padding-16">
+            
+            <span class="w3-opacity">Semester 1</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="accordion w3-green">Semester 2</button>
+<div class="panel">
+  <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-blue w3-xlarge w3-padding-32">Year1</li>
+          <li class="w3-padding-16"> GPA 2.65</li>
+          <li class="w3-padding-16">Operating Systems Fundamentals C+</li>
+          <li class="w3-padding-16">Database Fundamentals C+</li>
+          <li class="w3-padding-16">Statistics C+</li>
+		  <li class="w3-padding-16">Social Media Communications C+</li>
+		  <li class="w3-padding-16">Object Oriented System Analysis B-</li>
+		  <li class="w3-padding-16">Software Development 2 D	
+-</li>
+          <li class="w3-padding-16">
+            
+            <span class="w3-opacity">Semester 2</span>
+          </li>
+</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  
+  <!-- Work Experience -->
+  <header id="workexperience">
+    <h4><b>Work Experience</b></h4>
+ <div class="w3-content w3-display-container">
+
+<div class="w3-display-container mySlides">
+  <img src="OLH.PNG" style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-clear">
+    Our Lady's Hospice
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="qualcom.PNG" style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-clear">
+    Qualcom
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="Virgin_Media.PNG" style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-clear">
+    Virgin Media
+  </div>
+</div>
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+  
+  
+  <!-- Skills -->
+  <header id="skills">
+   <h4><b>Technical Skills</b></h4>
+    <!-- Progress bars / Skills -->
+    <p>Scripting</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:45%">45%</div>
+    </div>
+    <p>Web Design</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:40%">40%</div>
+    </div>
+	 <p>Databases</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:55%">55%</div>
+    </div> <p>Networking</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:100%">100%</div>
+    </div> <p>Information Management</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:100%">100%</div>
+    
+	</div> <p>Cloud Computing</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:75%">75%</div>
+    </div>
+    <p>Security</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:75%">75%</div>
+    </div>
+ <hr>
+ 
+  <!-- Awards -->
+  <header id="awards">
+  
+  
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>Awards</b></h4>
+     <hr>
+  <div class="w3-card-4 w3-teal" style="width:70%">
+    <header class="w3-container w3-green">
+      <h3>BANK OF AMERICA MERILL LYNCH (CERTIFICATE OF ACHIEVEMENT) </h3>
+    </header>
+    <div class="w3-container">
+      <p>2014 </p>
+      <hr>
+      <img src="boa.png" alt="Bank Of America Merill Lynch" class="w3-left w3-square w3-margin-right" style="width:300px">
+      <p>Run by Bank of America Merill Lynch I took part in interview techniques, CV compilation and understanding the day to day implementation of the organisation</p><br>
+    </div>
+	</div>
+	
+	<div class="w3-card-4 w3-teal" style="width:70%">
+    <header class="w3-container w3-green">
+      <h3>GAISCE PRESIDENCY AWARD (BRONZE MEDAL)</h3>
+    </header>
+    <div class="w3-container">
+      <p>2013</p>
+      <hr>
+      <img src="gaisce.jpg" alt="gaisce" class="w3-left w3-square w3-margin-right" style="width:300px">
+      <p>This challenge entailed having a new involvement in the community, taking up a new physical recreation, improving an existing personal skill and going on an adventure journey
+
+</p><br>
+    </div>
+	</div>
+ 
+   <!-- Hobbies -->
+  <header id="hobbies">
+   
+ 
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>Hobbies</b></h4>
+     <hr>
+	 <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="chess.jpg" alt="chess" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Chess</b></p>
+        <p> I used to play chess in school alot and did some classes outside of school as well as attending some local tournaments in my area.</p> 
+		<p>Now a days i just play for fun with my dad or family.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="swimming.jpg" alt="swimming" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Swimming</b></p>
+        <p>Enjoy swimming as way to burn off energy and also gain exercise. I did swimming in Tallaght on a weekly basis but as time moved on I reduced amount of swimming.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="mountain.jpg" alt="mountain" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Hill walking with dog</b></p>
+        <p>Every second weekend myself, sister, Dad and dog would go hill walking around Ticknock and Three Rock Mountain area for an hour or two .</p>
+      </div>
+    </div>
+  </div>
+	</div>
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contact Me</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-20" style="margin:0 -0px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Kevin.96okeeffe@gmail.com</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Dublin, Ireland</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>512312311</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email Address</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <div class="w3-container">
+  
+  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-green">Send Email</button>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <p>Email has been sent.</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+	  
+    </form>
+  </div>
+
+  
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+
+
+</script>
+
+</body>
+</html>
